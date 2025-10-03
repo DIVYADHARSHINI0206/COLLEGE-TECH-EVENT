@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Tech Events Finder</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1 id="hero-title">Discover the Best College Tech Events Near You</h1>
+  <p id="hero-subtitle">Workshops, Hackathons & Symposiums from Nearby Colleges</p>
+  <button onclick="scrollToEvents()">Explore Events</button>
+</section>
+
+<!-- Counters Section -->
+<section class="counters">
+  <div class="counter"><h2 id="total-events">0</h2><p>Total Events</p></div>
+  <div class="counter"><h2 id="workshops">0</h2><p>Workshops</p></div>
+  <div class="counter"><h2 id="hackathons">0</h2><p>Hackathons</p></div>
+  <div class="counter"><h2 id="symposiums">0</h2><p>Symposiums</p></div>
+</section>
+
+<!-- Search & Filter -->
+<section class="controls">
+  <input type="text" id="search" placeholder="Search events...">
+  <select id="filter">
+    <option value="all">All Types</option>
+    <option value="workshop">Workshop</option>
+    <option value="hackathon">Hackathon</option>
+    <option value="symposium">Symposium</option>
+  </select>
+</section>
+
+<!-- Events Container -->
+<section class="events-container" id="events-container"></section>
+
+<!-- Modal Popup -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="close-modal">&times;</span>
+    <h2 id="modal-name"></h2>
+    <p><strong>College:</strong> <span id="modal-college"></span></p>
+    <p><strong>Date:</strong> <span id="modal-date"></span></p>
+    <p><strong>Type:</strong> <span id="modal-type"></span></p>
+    <p id="modal-desc"></p>
+    <a id="modal-link" href="#" target="_blank">More Info</a>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 College Tech Events Finder | Made by Divya</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "AI Workshop",
+    "college": "National Engineering College",
+    "date": "2025-10-10",
+    "type": "workshop",
+    "desc": "Learn AI basics, Python implementation, and practical projects.",
+    "link": "https://nec.edu/events/ai-workshop"
+  },
+  {
+    "name": "Hackathon 2025",
+    "college": "PSG College of Technology",
+    "date": "2025-10-15",
+    "type": "hackathon",
+    "desc": "48-hour coding competition with prizes for best innovative projects.",
+    "link": "https://psgtech.edu/hackathon2025"
+  },
+  {
+    "name": "Tech Symposium",
+    "college": "Coimbatore Institute of Technology",
+    "date": "2025-10-20",
+    "type": "symposium",
+    "desc": "Technical talks and project exhibitions by top engineering students.",
+    "link": "https://cit.edu/techsymposium"
+  },
+  {
+    "name": "Cybersecurity Workshop",
+    "college": "Anna University",
+    "date": "2025-11-01",
+    "type": "workshop",
+    "desc": "Hands-on sessions on ethical hacking and network security.",
+    "link": "https://annauniv.edu/cybersec"
+  },
+  {
+    "name": "IoT Hackathon",
+    "college": "PSG College of Technology",
+    "date": "2025-11-05",
+    "type": "hackathon",
+    "desc": "Develop innovative IoT solutions in teams within 24 hours.",
+    "link": "https://psgtech.edu/iothack"
+  }
+]
