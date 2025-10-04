@@ -59,7 +59,9 @@ function openModal(event) {
   modalstart_end.textContent = event.end_date;
   modalType.textContent = event.type;
   modalDesc.textContent = event.desc || "No description";
+  modalLink = document.getElementById('modal-link');
   modalLink.href = event.link || "#";
+  modalLink.textContent="visit event page";
   modal.style.display = "block";
 }
 
