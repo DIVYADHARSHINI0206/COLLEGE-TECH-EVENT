@@ -55,11 +55,9 @@ function displayEvents(events) {
 function openModal(event) {
   modalName.textContent = event.name;
   modalCollege.textContent = event.college;
-  modalstart_date.textContent = event.start_date;
-  modalstart_end.textContent = event.end_date;
+  modalDate.textContent = event.date;
   modalType.textContent = event.type;
   modalDesc.textContent = event.desc || "No description";
-  modalLink = document.getElementById('modal-link');
   modalLink.href = event.link || "#";
   modalLink.textContent="visit event page";
   modal.style.display = "block";
