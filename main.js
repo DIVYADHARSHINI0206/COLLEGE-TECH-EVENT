@@ -55,7 +55,8 @@ function displayEvents(events) {
 function openModal(event) {
   modalName.textContent = event.name;
   modalCollege.textContent = event.college;
-  modalDate.textContent = event.date;
+  modalstart_date.textContent = event.start_date;
+  modalstart_end.textContent = event.end_date;
   modalType.textContent = event.type;
   modalDesc.textContent = event.desc || "No description";
   modalLink.href = event.link || "#";
