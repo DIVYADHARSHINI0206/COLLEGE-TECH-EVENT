@@ -1,42 +1,56 @@
 [
   {
-    "name": "AI Workshop",
-    "college": "National Engineering College",
-    "date": "2025-10-10",
-    "type": "workshop",
+    "name": "TECHXPLOSION'25",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "start date": "14-10-2025",
+    "end date": "14-10-2025",
+    "type": "symposium",
     "desc": "Learn AI basics, Python implementation, and practical projects.",
-    "link": "https://nec.edu/events/ai-workshop"
+    "link": "https://srmmcet.edu.in/"
   },
   {
-    "name": "Hackathon 2025",
-    "college": "PSG College of Technology",
-    "date": "2025-10-15",
+    "name": "VALIANT 2K25",
+    "college": "AAA College of Engineering and Technology",
+    "start date": "2025-10-08",
+    "end date": "2025-10-08",
     "type": "hackathon",
-    "desc": "48-hour coding competition with prizes for best innovative projects.",
-    "link": "https://psgtech.edu/hackathon2025"
+    "desc": "To showcase their technical expertise,creative skills,innovative thinking.",
+    "link": "https://surl.li/ragmns"
   },
   {
-    "name": "Tech Symposium",
-    "college": "Coimbatore Institute of Technology",
-    "date": "2025-10-20",
+    "name": "GILBERTRONIX'2K25",
+    "college": "PSR Engineering College",
+    "start date": "2025-10-08",
+    "end date": "2025-10-08",
     "type": "symposium",
     "desc": "Technical talks and project exhibitions by top engineering students.",
-    "link": "https://cit.edu/techsymposium"
+    "link": "https://psr.edu.in/ug-programs/electrical-and-electronics-engineering/"
   },
   {
-    "name": "Cybersecurity Workshop",
-    "college": "Anna University",
-    "date": "2025-11-01",
-    "type": "workshop",
+    "name": "Bytecraze 2k25",
+    "college": "Loyala Institute Of Technology and Science",
+    "start date": "2025-10-09",
+    "end date": "2025-10-09",
+    "type": "symbosium",
     "desc": "Hands-on sessions on ethical hacking and network security.",
-    "link": "https://annauniv.edu/cybersec"
+    "link": "https://bytcraze-cse-lites.vercel.app/"
   },
   {
-    "name": "IoT Hackathon",
-    "college": "PSG College of Technology",
-    "date": "2025-11-05",
-    "type": "hackathon",
+    "name": "VALIANT 2K25",
+    "college": "AAA College of Engineering and Technology",
+    "start date": "2025-10-08",
+    "end date": "2025-10-08",
+    "type": "workshop",
+    "desc": "To showcase their technical expertise,creative skills,innovative thinking.",
+    "link": "https://surl.li/ragmns"
+  },
+  {
+    "name": "ROBONEXUS 2K25",
+    "college": "Karpaga Vinayaga College of Engineering and Technology",
+    "start date": "2025-10-13",
+    "enddate": "2025-10-13",
+    "type": "symbosium",
     "desc": "Develop innovative IoT solutions in teams within 24 hours.",
-    "link": "https://psgtech.edu/iothack"
+    "link": "https://robonexus2k25.vercel.app/"
   }
 ]
